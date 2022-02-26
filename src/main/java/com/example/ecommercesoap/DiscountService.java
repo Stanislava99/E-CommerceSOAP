@@ -6,7 +6,7 @@ import java.util.List;
 @WebService(serviceName = "DiscountService")
 public class DiscountService {
 
-    ProductService productService = new ProductService();
+    ProductSe   rvice productService = new ProductService();
 
     @WebMethod(action = "addDiscount")
     public String addDiscount(int id, int discount) {
